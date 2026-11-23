@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashify - Sell, Buy & Repair</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <span> <img src="c.png"/></span>
+        </div>
+
+        <div class="search">
+            <button id="searchBtn">
+<!-- <img height="20px" width="20px"  src="https://img.icons8.com/ios-glyphs/30/search--v1.png" alt="search--v1"/> -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <circle cx="10.5" cy="10.5" r="7" stroke="#777" stroke-width="2"/>
+        <path d="M16 16L21 21" stroke="#777" stroke-width="2"/>
+    </svg>
+</button>
+            <input type="text" id="searchInput" placeholder="Search for mobiles, accessories & More">
+
+        </div>
+
+        <div class="header-links">
+            <span class="header-links-icon" >
+            <a href="#" id="wishlistBtn"><span class="heart" ><img src="C:\Users\DELL\Downloads\icons8-heart-24 (2).png"/></span></a>
+            <a href="#" id="cartBtn"><img src="C:\Users\DELL\Downloads\card.png" class="cart-icon"/></a>
+            </span>
+            <a href="#"><button class=" header-button" id="loginBtn">Login</button></a>
+        </div>
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+
+    <div class="dropdown" style=" display: flex; gap: 2px;">
+        <a href="#">All </a>
+         <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+        <!-- <i class="fa-solid fa-chevron-down fa-2xs" style="color: rgb(56, 69, 101); font-size: 15px; align-self: center;" ></i> -->
+        <ul class="dropdown-list">
+            <li><a href="#" style="font-size:13px ;"><b>Sell Phone</b></a></li>
+            <li><a href="#"> Laptop</a></li>
+            <li><a href="#"> Tablet</a></li>
+            <li><a href="#"> Phone</a></li>
+            <li><a href="#">Smartwatch</a></li>
+            <li><a href="#" style="font-size:13px ;"><b>Repair</b> </a></li>
+            <li><a href="#" style="font-size:13px ;"><b>Sell Gadgets</b></a></li>
+            <li><a href="#" style="font-size:13px ;"><b>Buy Gadgets</b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Recycle</b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Find New Phone</b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Cashify Store</b></a></li>
+
+        </ul>
+    </div>
+
+
+    <div class="dropdown" >
+        <a href="#">Sell Phone</a>
+         <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+
+        <ul class="dropdown-list">
+            <li><a href="#"style="font-size:13px ;" ><b>Top Brands</b></a></li>
+
+            <li><a href="#">Apple</a></li>
+            <li><a href="#">Xiaomi</a></li>
+            <li><a href="#">Samsung</a></li>
+            <li><a href="#">ONeplus</a></li>
+            <li><a href="#">Poco</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Nokia</a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Top Selling Phone</b></a></li>
+            <li><a href="#">Apple ipone 12</a></li>
+            <li><a href="#">Samsung Galaxy Note 20</a></li>
+            <li><a href="#">Apple ipone 11</a></li>
+            <li><a href="#">one plus 9 pro</a></li>
+            <li><a href="#">more</a></li>
+
+           
+        </ul>
+    </div>
+
+
+    <div class="dropdown">
+        <a href="#">Sell Gadgets</a>
+<img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+        <ul class="dropdown-list">
+            <li><a href="#"style="font-size:13px ;" ><b>Phone</b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Laptop</b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Smart Speaker</b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Tablet ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Gaming Consoles ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>iMac</b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Smartwtach ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>TV ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Earbuds ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>DSLR CAMRA ></b></a></li>
+         
+        </ul>
+    </div>
+
+
+    <div class="dropdown">
+        <a href="#">Buy Refurbished Devices</a>
+        <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+
+        <ul class="dropdown-list">
+            <li><a href="#">Refurbished Phones</a></li>
+            <li><a href="#">Refurbished Laptops</a></li>
+            <li><a href="#">Refurbished Smart watches</a></li>
+            <li><a href="#">Refurbished Tablets</a></li>
+            <li><a href="#">Refurbished Gaming Consoles</a></li>
+            <li><a href="#">Refurbished Camera</a></li>
+            <li><a href="#">Audio Devices</a></li>
+            <li><a href="#">Amzon Devices</a></li>
+
+            <li><a href="#"style="font-size:13px ;" ><b>TV ></b></a></li>
+            <li><a href="#">Apple</a></li>
+            <li><a href="#">Xiaomi</a></li>
+            <li><a href="#">Samsung</a></li>
+            <li><a href="#">ONeplus</a></li>
+            <li><a href="#">Poco</a></li>
+            <li><a href="#">More</a></li>
+
+
+
+        </ul>
+    </div>
+      
+
+     <div class="dropdown">
+        <a href="#">Buy New Accessories</a>
+        <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+
+        <ul class="dropdown-list">
+            <li><a href="#">new power banks</a></li>
+            <li><a href="#">sugato power banks</a></li>
+            <li><a href="#">All accessories</a></li>
+        </ul>
+    </div>
+
+
+     <div class="dropdown">
+        <a href="#">Find New Gadget</a>
+        <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+
+        <ul class="dropdown-list">
+            <li><a href="#"style="font-size:13px ;" ><b>find new Phone   ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>find new Laptop     ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>find new Smartwatch     ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>find new Tablets ></b></a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Explore ></b></a></li>
+           <li><a href="#">video</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">reviews</a></li>
+            <li><a href="#">article</a></li>
+            <li><a href="#">qna</a></li>
+              <li><a href="#">reviews</a></li>
+            <li><a href="#">article</a></li>
+        </ul>
+    </div>
+
+
+     <div class="dropdown">
+        <a href="#">Buy Laptop</a>
+        <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+
+        <ul class="dropdown-list">
+            <li><a href="#"style="font-size:13px ;" ><b>Top Brands ></b></a></li>
+            <li><a href="#">Apple</a></li>
+            <li><a href="#">dell</a></li>
+            <li><a href="#">lenovo</a></li>
+            <li><a href="#">hp</a></li>
+            <li><a href="#">acer</a></li>
+            <li><a href="#">asus</a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Best selling Laptop</b></a></li>
+            <li><a href="#">apple macbook air mid 2017<br> Refurbished</a></li>
+            <li><a href="#">>apple macbook air early 2015<br> Refurbished</a></li>
+            <li><a href="#">>apple macbook air  2020<br> Refurbished</a></li>
+
+            
+        </ul>
+    </div>
+
+
+
+ <div class="dropdown">
+        <a href="#">Cashify Store</a>
+        <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+
+        <ul class="dropdown-list">
+            <li><a href="#"style="font-size:13px ;" ><b>More in cashify stores</b></a></li>
+            <li><a href="#">delhi</a></li>
+            <li><a href="#">Gurgaon</a></li>
+            <li><a href="#">Noida</a></li>
+            <li><a href="#">Bengalluru</a></li>
+            <li><a href="#">Chennei</a></li>
+            <li><a href="#">pune</a></li>
+            <li><a href="#">Agra</a></li>
+            <li><a href="#">patna</a></li>
+            <li><a href="#">up</a></li>
+            <li><a href="#">meerut</a></li>
+            <li><a href="#">mohali</a></li>
+            <li><a href="#">thane</a></li>
+
+         
+        </ul>
+    </div>
+
+
+    <div class="dropdown">
+        <a href="#">More</a>
+        <img class="img" src="C:\Users\DELL\Downloads\icons8-down-arrow-30.png">
+
+        <ul class="dropdown-list">
+            <li><a href="#">new offers</a></li>
+            <li><a href="#">partner with us</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">warranty policy</a></li>
+            <li><a href="#">refer & earn</a></li>
+            <li><a href="#"style="font-size:13px ;" ><b>Company</b></a></li>
+
+            <li><a href="#">About us</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">Artial</a></li>
+            <li><a href="#">Become supersale partner</a></li>
+            <li><a href="#">Press Release</a></li>
+            <li><a href="#">terms & Conditions</a></li>
+
+           
+        </ul>
+    </div>
+        </div>
+    </nav>
+
+
+
+<!-- heading -1 -->
+ <div class="heading-1">India's Largest Refurbished mobile Phone Store
+ </div>
+
+ <!-- add -->
+  <div class="add">
+     <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\56dbce203c8d4686bb85dc9207e1b8d2.avif" id="img"/></div>
+        <div class="add-box-name">Smart Watchs</div>
+      </div>
+      <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\0a450a296681464b801fed6d753872e6.avif" id="img"/></div>
+        <div class="add-box-name">Laptop</div>
+      </div>
+     
+       <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\135a8b8adb994199a9c6b04fb5bfdea7.avif" id="img"/></div>
+        <div class="add-box-name">Tablets</div>
+      </div>
+      <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\amazon devices.avif" id="img"/></div>
+        <div class="add-box-name">Amazon Devices</div>
+      </div>
+      <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\camra and camra lens.avif" id="img"/></div>
+        <div class="add-box-name">Camra &<br> Camra Lens </div>
+      </div>
+      <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\audio diveces.avif" id="img"/></div>
+        <div class="add-box-name">Audio Devices</div>
+      </div>
+      <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\gaming console.avif" id="img"/></div>
+        <div class="add-box-name">Gaming<br>Consoles</div>
+      </div>
+      <div class="add-box">
+        <div class="add-box-img"><img src="C:\Users\DELL\Downloads\new accessories.avif" id="img"/></div>
+        <div class="add-box-name">New accessories</div>
+      </div>
+     
+</div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+<img src="C:\Users\DELL\Documents\image\rak.avif" class="hero-image"/>
+    </section>
+
+<!-- Favourite Brands -->
+    <h2>Favourite Brands</h2>
+
+ <div class="Favourite_Brands">
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/d3abed491a974d0bae84c21e1f7c96bd.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875,</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/2c9b1a6a6b364548b6d034ee2066f1a8.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/009c40d8abce40ce9bbfe1dc31cc4588.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/074194479ff645c887be8de00e55a40b.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/77dd0b0b75654d4399d6c654669e8df7.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/882fd9f1a1264daa8f214ee81f0b279e.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/5dd67bb05ef34fc58a4ec87e988f12c8.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/43bac286e28f49fba0098618a2bd558d.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/c015eeb0d7da4268ac82e0bc66ec1043.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+     <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/a77a0220333f40f2b82096c2980c362e.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+     <div class="add-box">
+        <div class="add-box-img"><img src="https://s3ng.cashify.in/estore/82f1f4383e7e4d048d13bca9d5e17945.webp?w=192" id="img"/></div>
+        <div class="add-box-name">Sarting Form</div>
+        <div class="add_box_price"><b>₹15,875</b></div>
+    </div>
+    
+ </div>
+
+
+<!-- Flash Sale -->
+ <h2 class="heading">Flash Sale</h2>
+
+    <div class="flash-sale">
+
+        <!-- Card 1 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="C:\Users\DELL\Documents\image\images.jpg" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPvaCXr4theyRoR5mdZqBJfxdZSNVKu9fNVWWm85aLKQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Card 3 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuiOoGN_ZdSUEltzzYbuxb4DAI4_EHZhBUyRZ1CJLxQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- card 4 -->
+         <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbsl9ueef8DFZcAAngARCTZoOjEhltjRRNZEb9k07ZLQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- card 5 -->
+         <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lSnfmOSebqgmzC1lB5MI-wAZuVfS_aoPhB5aYO3vjw&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--------------------------------- stucture -->
+
+
+<div class="offer-container">
+
+    <!-- CARD 1 -->
+    <div class="offer-card">
+
+        <div class="offer-image">
+            <img src="https://s3ng.cashify.in/cashify/product/img/xxhdpi/44dd46d3-de53.jpg?w=200&dpr=1.5" alt="Apple Watch">
+        </div>
+
+        <div class="offer-content">
+            <span class="offer-discount">43% OFF</span>
+
+            <h2>
+                Apple Watch Series 11<br>
+                (46mm, GPS Only)-...
+            </h2>
+
+            <div class="offer-price">
+                ₹32,499 <del>₹57,399</del>
+            </div>
+
+            <p>Effective Price</p>
+
+            <strong>₹31,261</strong>
+        </div>
+
+    </div>
+
+
+    <!-- CARD 2 -->
+    <div class="offer-card">
+
+        <div class="offer-image">
+            <img src="https://s3ng.cashify.in/cashify/product/img/xxhdpi/3f3c7d71-3cf7.jpg?w=200&dpr=1.5" alt="Samsung Galaxy Buds">
+        </div>
+
+        <div class="offer-content">
+            <span class="offer-discount">76% OFF</span>
+
+            <h2>
+                Samsung Galaxy Buds 3 -<br>
+                Refurbished
+            </h2>
+
+            <div class="offer-price">
+                ₹4,849 <del>₹19,999</del>
+            </div>
+
+            <p>Effective Price</p>
+
+            <strong>₹4,752</strong>
+        </div>
+
+    </div>
+
+
+    <!-- CARD 3 -->
+    <div class="offer-card">
+
+        <div class="offer-image">
+            <img src="https://s3ng.cashify.in/cashify/product/img/xxhdpi/17bf46be-d31e.jpg?w=200&dpr=1.5" alt="Fitbit Inspire 3">
+        </div>
+
+        <div class="offer-content">
+            <span class="offer-discount">49% OFF</span>
+
+            <h2>
+                FITBIT Inspire 3 Smartwatch<br>
+                (19mm, GPS Only)-...
+            </h2>
+
+            <div class="offer-price">
+                ₹4,599 <del>₹8,999</del>
+            </div>
+
+            <p>Effective Price</p>
+
+            <strong>₹4,507</strong>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- --------------------------photo -->
+<div class="box">
+    <div class="left">
+        <img src="https://s3ng.cashify.in/estore/1b450362e1544460851865dc278f58d6.webp" class="image">
+    </div>
+    <div class="right">
+        <img src="https://s3ng.cashify.in/estore/505870ad8c4c4e8fbeb90d6d4b37931c.webp" class="image">
+    </div>
+</div>
+
+<!-- SEELINF FIRST -->
+
+ <h2 class="heading" style="margin-top: 20px;">Selling First</h2>
+
+    <div class="flash-sale">
+
+        <!-- Card 1 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="C:\Users\DELL\Documents\image\images.jpg" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPvaCXr4theyRoR5mdZqBJfxdZSNVKu9fNVWWm85aLKQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Card 3 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuiOoGN_ZdSUEltzzYbuxb4DAI4_EHZhBUyRZ1CJLxQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- card 4 -->
+         <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbsl9ueef8DFZcAAngARCTZoOjEhltjRRNZEb9k07ZLQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- card 5 -->
+         <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.5 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lSnfmOSebqgmzC1lB5MI-wAZuVfS_aoPhB5aYO3vjw&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ---------------------image -->
+      <section class="zero">
+<img src="https://s3ng.cashify.in/estore/d5f2177a0bb343bdac6b2f341e11f6dc.webp?w=1280" class="zero-image"/>
+    </section>
+    <!-- ---------------------------------------box  -->
+      <section class="shop-price">
+
+    <h2>Shop By Price</h2>
+
+    <div class="price-container">
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹9,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹14,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹19,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹24,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹29,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹34,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹39,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹49,999</h3>
+            <button>→</button>
+        </div>
+
+        <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹74,999</h3>
+            <button>→</button>
+        </div>
+         <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹74,999</h3>
+            <button>→</button>
+        </div>
+         <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹74,999</h3>
+            <button>→</button>
+        </div>
+         <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹74,999</h3>
+            <button>→</button>
+        </div>
+         <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹74,999</h3>
+            <button>→</button>
+        </div>
+         <div class="price-card">
+            <p>UNDER</p>
+            <h3>₹74,999</h3>
+            <button>→</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =====================================shop================ -->
+ <h2 class="heading" style="margin-top: 20px; font-size: 28px;">Best Android Deals</h2>
+
+    <div class="sales">
+
+        <!-- Card 1 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>lowest sale</span>
+                <span>4.8 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="C:\Users\DELL\Documents\image\images.jpg" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>lowest sale</span>
+                <span>4.8 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPvaCXr4theyRoR5mdZqBJfxdZSNVKu9fNVWWm85aLKQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h4  style="font-size: 17px; ;">
+                    Samsung Galaxy S23 Ultra
+5G - Refurbished
+                </h4>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Card 3 -->
+        <div class="product-card">
+
+            <div class="sale">
+                <span>lowest sale</span>
+                <span>4.8 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuiOoGN_ZdSUEltzzYbuxb4DAI4_EHZhBUyRZ1CJLxQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- card 4 -->
+         <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.8 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbsl9ueef8DFZcAAngARCTZoOjEhltjRRNZEb9k07ZLQ&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- card 5 -->
+         <div class="product-card">
+
+            <div class="sale">
+                <span>Rakhi Sale</span>
+                <span>4.8 ⭐</span>
+            </div>
+
+            <div class="product-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8lSnfmOSebqgmzC1lB5MI-wAZuVfS_aoPhB5aYO3vjw&s=10" alt="Apple iPhone 11">
+
+                <div class="play">▶</div>
+            </div>
+
+            <div class="product-info">
+
+                <h3>
+                    Apple iPhone 11 -<br>
+                    Refurbished
+                </h3>
+
+                <div class="price">
+                    <span class="discount">-60%</span>
+                    <span class="old-price">₹16,799</span>
+                </div>
+
+                <div class="gold-price">
+                    <strong>₹15,875</strong>
+                    <span>with</span>
+                    <b>GOLD</b>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- ==============================Acessories===========-->
+
+  <section class="accessories">
+
+    <div class="section-header">
+        <h2>Other Accessories</h2>
+        <a href="#">View All</a>
+    </div>
+
+    <div class="product-slider">
+
+        <!-- Card 1 -->
+        <div class="product-cards">
+            <div class="assured">✓ CASHIFY<br><span>ASSURED</span></div>
+
+            <div class="product-image">
+                <img src="https://s3ng.cashify.in/cashify/product/img/xxhdpi/312312a4-9019.jpg?w=240&dpr=1.5" alt="">
+            </div>
+
+            <div class="discount-off">₹5,491 OFF</div>
+
+            <h3>DJI OSMO Mobile 8 Gimbal - Unboxed</h3>
+
+            <div class="rating">3.5 ⭐</div>
+
+            <div class="price-row">
+                <span class="percentage">-34%</span>
+                <strong>₹10,499</strong>
+                <del>₹15,990</del>
+            </div>
+
+            <div class="golds-price">
+                <b>₹9,701</b> with <span>GOLD</span>
+            </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="product-cards">
+            <div class="assured">✓ CASHIFY<br><span>ASSURED</span></div>
+
+            <div class="product-image">
+                <img src="https://s3ng.cashify.in/cashify/store/product/222639c9a3c94087882cdf668dfa0576.jpg?w=240&dpr=1.5" alt="">
+            </div>
+
+            <div class="discount-off">₹18,991 OFF</div>
+
+            <h3>DJI RS3 Mini Gimbal - Unboxed</h3>
+
+            <div class="rating">4.5 ⭐</div>
+
+            <div class="price-row">
+                <span class="percentage">-53%</span>
+                <strong>₹16,999</strong>
+                <del>₹35,990</del>
+            </div>
+
+            <div class="golds-price">
+                <b>₹16,071</b> with <span>GOLD</span>
+            </div>
+        </div>
+
+
+        <!-- Card 3 -->
+        <div class="product-cards">
+            <div class="assured">✓ CASHIFY<br><span>ASSURED</span></div>
+
+            <div class="product-image">
+                <img src="https://s3ng.cashify.in/estore/f0a25c72ea7e41a4aab4187e3aef1494.png?w=240&dpr=1.5" alt="">
+            </div>
+
+            <div class="discount-off">₹13,500 OFF</div>
+
+            <h3>DJI OM 5 Smartphone Gimbal - Unboxed</h3>
+
+            <div class="rating">3.5 ⭐</div>
+
+            <div class="price-row">
+                <span class="percentage">-75%</span>
+                <strong>₹4,499</strong>
+                <del>₹17,999</del>
+            </div>
+        </div>
+
+
+        <!-- Card 4 -->
+        <div class="product-cards">
+            <div class="assured">✓ CASHIFY<br><span>ASSURED</span></div>
+
+
+            <div class="product-image">
+                <img src="https://s3ng.cashify.in/cashify/store/product/7b356cf7ba1f4a8fbb3fcc814d1dd80e.jpg?w=240&dpr=1.5" alt="">
+            </div>
+
+            <div class="discount-off">₹10,500 OFF</div>
+
+            <h3>DJI OSMO Mobile 6 Gimbal - Unboxed</h3>
+
+            <div class="rating">4.3 ⭐</div>
+
+            <div class="price-row">
+                <span class="percentage">-58%</span>
+                <strong>₹7,499</strong>
+                <del>₹17,999</del>
+            </div>
+
+            <div class="golds-price">
+                <b>₹6,761</b> with <span>GOLD</span>
+            </div>
+        </div>
+
+
+        <!-- Card 5 -->
+        <div class="product-cards">
+            <div class="assured">✓ CASHIFY<br><span>ASSURED</span></div>
+
+            <div class="product-image">
+                <img src="https://s3ng.cashify.in/cashify/store/product/8f22f18895b749c3a9b812a136084eb4.webp?w=240&dpr=1.5" alt="">
+            </div>
+
+            <div class="discount-off">₹18,000 OFF</div>
+
+            <h3>DJI Mic Mini (2 TX+1R Microphone - Unboxed</h3>
+
+            <div class="rating">4.2 ⭐</div>
+
+            <div class="price-row">
+                <span class="percentage">-72%</span>
+                <strong>₹6,999</strong>
+                <del>₹24,999</del>
+            </div>
+
+            <div class="golds-price">
+                <b>₹6,271</b> with <span>GOLD</span>
+            </div>
+        </div>
+
+    </div>
+
+    <button class="next-btn">→</button>
+
+</section>
+    <!-- audio-section -->
+<section class="audio-section">
+
+    <div class="title">
+        <h2>Best Selling Audio Devices</h2>
+        <a href="#">View All</a>
+    </div>
+
+    <div class="audio-container">
+
+        <!-- Card 1 -->
+        <div class="card">
+            <!-- <div class="assured">ⓒ CASHIFY<br>ASSURED</div> -->
+
+            <img src="https://s3ng.cashify.in/cashify/product/img/xxhdpi/3f3c7d71-3cf7.jpg?w=240&dpr=1.5" alt="Galaxy Buds">
+
+            <div class="off">₹17,500 OFF</div>
+
+            <h3>Samsung Galaxy Buds 3 Pro - Refurbished</h3>
+
+            <div class="rating">4.7 ⭐</div>
+
+            <div class="prices">
+                <span>-70%</span>
+                <b>₹7,499</b>
+                <del>₹24,999</del>
+            </div>
+
+            <div class="gold">
+                <b>₹6,761</b> with <strong>GOLD</strong>
+            </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="card">
+            <!-- <div class="assured">ⓒ CASHIFY<br>ASSURED</div> -->
+
+            <img src="https://s3ng.cashify.in/cashify/product/img/xxhdpi/3f3c7d71-3cf7.jpg?w=240&dpr=1.5" alt="Galaxy Buds">
+
+            <div class="off">₹15,000 OFF</div>
+
+            <h3>Samsung Galaxy Buds 3 - Refurbished</h3>
+
+            <div class="rating">4.3 ⭐</div>
+
+            <div class="prices">
+                <span>-75%</span>
+                <b>₹4,999</b>
+                <del>₹19,999</del>
+            </div>
+        </div>
+
+
+        <!-- Card 3 -->
+        <div class="card">
+            <!-- <div class="assured">ⓒ CASHIFY<br>ASSURED</div> -->
+
+            <img src="https://s3ng.cashify.in/cashify/product/img/xxhdpi/2442176d-c1fc.jpg?w=240&dpr=1.5" alt="AirPods">
+
+            <div class="off">₹4,201 OFF</div>
+
+            <h3>Apple AirPods 3rd Gen- Charging Case - Refurbished</h3>
+
+            <div>
+                <!-- <span class="tag">Apple Bumper Sale</span> -->
+                <span class="rating">4.9 ⭐</span>
+            </div>
+
+            <div class="prices">
+                <span>-28%</span>
+                <b>₹10,699</b>
+                <del>₹14,900</del>
+            </div>
+
+            <div class="gold">
+                <b>₹9,897</b> with <strong>GOLD</strong>
+            </div>
+        </div>
+
+
+        <!-- Card 4 -->
+        <div class="card">
+            <!-- <div class="assured">ⓒ CASHIFY<br>ASSURED</div> -->
+
+            <img src="https://s3ng.cashify.in/cashify/store/product/eef7742bd08943eb84f1016c823a8ffc.webp?w=240&dpr=1.5" alt="AirPods">
+
+            <div class="off">₹5,600 OFF</div>
+
+            <h3>Apple AirPods 3rd Gen- Wireless Charging Case - Refurbished</h3>
+
+            <div>
+                <!-- <span class="tag">Apple Bumper Sale</span> -->
+                <span class="rating">3.8 ⭐</span>
+            </div>
+
+            <div class="prices">
+                <span>-33%</span>
+                <b>₹11,399</b>
+                <del>₹16,999</del>
+            </div>
+
+            <div class="gold">
+                <b>₹10,583</b> with <strong>GOLD</strong>
+            </div>
+        </div>
+
+
+        <!-- Card 5 -->
+        <div class="card">
+            <!-- <div class="assured">Ⓢ Sleek</div> -->
+
+            <img src="https://s3ng.cashify.in/estore/b78ee8065a8f4ec8b8b6469d75f720d6.jpg?w=240&dpr=1.5" alt="Sony Headphone">
+
+            <div class="off">₹12,591 OFF</div>
+
+            <h3>Sony WH 1000XM5 Best Active Noise Cancelling</h3>
+
+            <div>
+                <!-- <span class="tag">Lowest Price</span> -->
+                <span class="rating">4.7 ⭐</span>
+            </div>
+
+            <div class="prices">
+                <span>-36%</span>
+                <b>₹22,399</b>
+                <del>₹34,990</del>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========res -->
+
+<section class="refurbished">
+
+    <img src="C:\Users\DELL\Downloads\refurbished_man_cutout.png" alt="Refurbished">
+
+    <div class="refurbished-text">
+        <h2>What is Refurbished?</h2>
+
+        <p>
+            Refurbished devices are pre-owned devices that are inspected
+            and checked by expert technicians.
+        </p>
+    </div>
+
+</section>
+
+<!-- =============== ==============================play buttons-->
+
+<section class="conditions">
+
+    <h2>Conditions Explained</h2>
+
+    <p class="description">
+        Refurbished phones come in 4 variants - Superb, Good, Fair, Best Value.
+        Still puzzled? Check out explanatory videos to learn more.
+    </p>
+
+    <div class="condition-container">
+
+        <div class="condition-card">
+            <span>Superb</span>
+            <img src="phone1.png" alt="Superb">
+            <div class="play-button">▶</div>
+        </div>
+
+        <div class="condition-card">
+            <span>Good</span>
+            <img src="file:///C:/Users/DELL/Documents/image/images.jpg" alt="Good">
+            <div class="play-button">▶</div>
+        </div>
+
+        <div class="condition-card">
+            <span>Fair</span>
+            <img src="phone3.png" alt="Fair">
+            <div class="play-button">▶</div>
+        </div>
+
+        <div class="condition-card">
+            <span>Best Value</span>
+            <img src="phone4.png" alt="Best Value">
+            <div class="play-button">▶</div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ---------------------------card -->
+
+<section class="news">
+
+    <h2>In The News</h2>
+
+    <div class="news-container">
+
+        <div class="news-card">
+            <div class="logo livemint">live<span>mint</span></div>
+
+            <p>
+                Re-commerce platform Cashify plans
+                to open 80 new ...
+            </p>
+
+            <a href="#">Read more</a>
+        </div>
+
+        <div class="news-card">
+            <div class="logo toi">TIMES OF INDIA</div>
+
+            <p>
+                Cashify to open 250 stores by March
+                2023, expand f...
+            </p>
+
+            <a href="#" style="padding-top: 20px;">Read more</a>
+        </div>
+
+        <div class="news-card">
+            <div class="logo tech">TC <span>TechCrunch</span></div>
+
+            <p>
+                Cashify, a marketplace for gadgets
+                trade-ins and b...
+            </p>
+
+            <a href="#">Read more</a>
+        </div>
+
+        <div class="news-card">
+            <div class="logo et">
+                <b>ET</b> The Economic Times
+            </div>
+
+            <p>
+                Cashify, a seller of used smartphones,
+                has raised ...
+            </p>
+
+            <a href="#">Read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- map -->
+<div class="map">
+<img src="C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-09-05 132002.png">
+</div>
+
+<!-- review -->
+ <section class="reviews">
+
+    <h2>10+ lakh Happy heroes of Earth trust us to buy refurbished phones</h2>
+
+    <div class="review-container">
+
+        <!-- Card 1 -->
+        <div class="review-card">
+
+            <div class="quote">”</div>
+
+            <p>
+                Great way to purchase functional products at a reduced price.
+                M1 Macbook Air working great so far, battery health is also ~90%.
+                No complaints, will buy more refurbished devices instead of
+                purchasing new in the future.
+            </p>
+
+            <div class="user">
+                <img src="https://i.pravatar.cc/100?img=12" alt="Kartikey">
+                <span>Kartikey Kashiva</span>
+            </div>
+
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="review-card">
+
+            <div class="quote">”</div>
+
+            <p>
+                I was a bit apprehensive while pacing order!! But my expectations
+                were exceeded with the quality product delivered!!
+                Thanks Cashify!!
+            </p>
+
+            <div class="user">
+                <img src="https://i.pravatar.cc/100?img=11" alt="Shrinivas">
+                <span>Shrinivas Kulkarni</span>
+            </div>
+
+        </div>
+
+
+        <!-- Card 3 -->
+        <div class="review-card">
+
+            <div class="quote">”</div>
+
+            <p>
+                I loved everything about the product. It just feels so premium
+                to even hold it!
+            </p>
+
+            <div class="user">
+                <img src="https://i.pravatar.cc/100?img=5" alt="Abhishek">
+                <span>Abhishek Singh</span>
+            </div>
+
+        </div>
+
+
+        <!-- card-4 -->
+        <div class="review-card">
+
+            <div class="quote">”</div>
+
+            <p>
+                I loved everything about the product. It just feels so premium
+                to even hold it!
+            </p>
+
+            <div class="user">
+                <img src="https://i.pravatar.cc/100?img=5" alt="Abhishek">
+                <span>Abhishek Singh</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- content -->
+<section class="refurbished-section">
+
+    <h2>Buy Refurbished and Second Hand Mobile Phone</h2>
+
+    <p>
+        Getting flagship phones no longer has to feel like a luxury. Through Cashify,
+        you can pick them up at nearly half the cost of a brand-new device. New models
+        launch almost every week, and upgrading now and then can be expensive. That's
+        exactly why refurbished phones are a great option, as they bring access to the
+        latest tech at a lower price.
+    </p>
+
+    <p>
+        It is super simple and budget-friendly to upgrade to a new phone with Cashify.
+        You don't have to overspend to get a dependable device. Even Cashify stores are
+        a great option to see the device for yourself before getting it. Because of this,
+        many users see Cashify as one of the top platforms and the best site for
+        refurbished phones in India.
+    </p>
+
+    <h2>Why Go for Refurbished Phones?</h2>
+
+    <p>
+        Contrary to what some might think, refurbished does not mean outdated or unused
+        for long. Every phone at Cashify goes through a 32-point quality check to ensure
+        proper performance and a near-new feel. In fact, these checks are performed by
+        experts. In short, it benefits both your wallet and the environment as it helps
+        reduce e-waste. This is why many consider Cashify the best site for refurbished
+        phones in India.
+    </p>
+
+    <h2>Tons of Options to Choose From</h2>
+
+    <p>
+        A wide collection of certified pre-owned phones is available at Cashify. If you
+        are interested in an iPhone, a Samsung Galaxy, or brands like OnePlus, Google
+        Pixel, Redmi, Vivo, POCO, or OPPO, there is plenty to explore. You can find the
+        most recent model as a way at a low price.
+    </p>
+
+    <p>
+        Better yet, you will find options that suit almost every budget. Cashify is truly
+        the best site for refurbished phones in India. Let's check out the buying process:
+    </p>
+
+</section>
+<!-- footer -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+        <!-- LOGO -->
+        <div class="footer-logo">
+            <h1><img src="C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-09-04 190814.png"></h1>
+
+            <p>Follow us on</p>
+
+            <div class="social-icons">
+                <span>▶</span>
+                <span>◎</span>
+                <span>f</span>
+                <span>𝕏</span>
+            </div>
+
+            <div class="chat-box">
+                <div class="chat-icon">▢</div>
+                <div>
+                    <b>Chat with Us</b>
+                    <small>Got tab? Just ask</small>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SERVICES -->
+        <div class="footer-col">
+            <h3>Services </h3>
+
+            <a href="#">Sell Phone</a>
+            <a href="#">Sell Television</a>
+            <a href="#">Sell Smart<br>Watch</a>
+            <a href="#">Sell Smart<br>Speakers</a>
+            <a href="#">Sell DSLR<br>Camera</a>
+            <a href="#">Sell Earbuds</a>
+            <a href="#">Repair Phone</a>
+            <a href="#">Buy Phone</a>
+            <a href="#">Recycle Phone</a>
+            <a href="#">Find New<br>Phone</a>
+        </div>
+
+
+        <!-- COMPANY -->
+        <div class="footer-col">
+            <h3>Company</h3>
+
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Articles</a>
+            <a href="#">Press Releases</a>
+            <a href="#">Become Cashify<br>Partner</a>
+            <a href="#">Join us as Affiliate<br>Partner</a>
+            <a href="#">Become Supersale<br>Partner</a>
+        </div>
+
+
+        <!-- SELL DEVICE -->
+        <div class="footer-col">
+            <h3>Sell Device</h3>
+
+            <a href="#">Mobile Phone</a>
+            <a href="#">Laptop</a>
+            <a href="#">Tablet</a>
+            <a href="#">iMac</a>
+            <a href="#">Gaming<br>Consoles</a>
+        </div>
+
+
+        <!-- HELP -->
+        <div class="footer-col">
+            <h3>Help & Support</h3>
+
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Warranty Policy</a>
+        </div>
+
+
+        <!-- MORE INFO -->
+        <div class="footer-col">
+            <h3>More Info</h3>
+
+            <a href="#">Terms &<br>Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+
+    </div>
+
+
+    <!-- REGISTERED OFFICE -->
+
+    <div class="registered">
+
+        <p class="registered-title">Registered Office:</p>
+
+        <p>
+            Retail Fiesta Private Limited | 2nd Floor, Plot No. 4,
+            Minarch Tower, Sector - 44, Gurugram, Haryana - 122003, India,
+            Support: +91 - 9319697452 | CIN: U52599HR2021PTC099714
+        </p>
+
+        <p>
+            Person who may be contacted in case of any compliance related
+            queries or grievances: Manoj Kumar
+            (grievanceofficer@cashify.in)
+        </p>
+
+        <p>
+            Country of Refurbishment/Origin : India ** All product names,
+            logos, and brands are property of their respective owners.
+            All company, product and service names used in this website are
+            for identification purposes only. Use of these names, logos,
+            and brands does not imply endorsement.
+        </p>
+
+    </div>
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="copyright">
+        Copyright © 2026 Cashify All rights reserved
+    </div>
+
+</footer>
+
+<!-- ============================================script========================= -->
+
+<script src="script.js"></script>
+</body>
+</html>
